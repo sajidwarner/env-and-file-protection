@@ -1,0 +1,13 @@
+  ///extra
+  
+  Options -Indexes
+
+<Files ~ "\.(git|env|json|config.js|md|gitignore|gitattributes|lock|example)$">
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files ~ "(artisan)$">
+    Order allow,deny
+    Deny from all
+</Files>
